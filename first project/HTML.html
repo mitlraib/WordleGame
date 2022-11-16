@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>WordleProject</title>
+
+  <script src = "Interaction.js" type = "text/javascript"></script>
+
+</head>
+
+
+
+<body>
+<link rel="stylesheet" href="Style.css">
+
+<section class="Introduction">
+  <div id="PageTitle">Wordle</div>
+  <hr>
+</section>
+
+<br>
+<br>
+
+<table id="LettersTable" >
+
+
+  <tr>
+    <td id="r1c1"></td>
+    <td id="r1c2"></td>
+    <td id="r1c3"></td>
+    <td id="r1c4"></td>
+    <td id="r1c5"></td>
+  </tr>
+  <tr>
+    <td id="r2c1"></td>
+    <td id="r2c2"></td>
+    <td id="r2c3"></td>
+    <td id="r2c4"></td>
+    <td id="r2c5"></td>
+  </tr>
+  <tr>
+    <td id="r3c1"></td>
+    <td id="r3c2"></td>
+    <td id="r3c3"></td>
+    <td id="r3c4"></td>
+    <td id="r3c5"></td>
+  </tr>
+  <tr>
+    <td id="r4c1"></td>
+    <td id="r4c2"></td>
+    <td id="r4c3"></td>
+    <td id="r4c4"></td>
+    <td id="r4c5"></td>
+  </tr>
+  <tr>
+    <td id="r5c1"></td>
+    <td id="r5c2"></td>
+    <td id="r5c3"></td>
+    <td id="r5c4"></td>
+    <td id="r5c5"></td>
+  </tr>
+  <tr>
+    <td id="r6c1"></td>
+    <td id="r6c2"></td>
+    <td id="r6c3"></td>
+    <td id="r6c4"></td>
+    <td id="r6c5"></td>
+  </tr>
+</table>
+
+<!--isExistWord();-->
+<br>
+<div>
+  <button id ="e" onclick = "locationOpen()">ק</button>
+ <button id="r" onclick = "locationOpen()">ר</button>
+  <button id="t"  onclick = "locationOpen()">א</button>
+  <button id="y"  onclick = "locationOpen()">ט</button>
+  <button id="u"  onclick = "locationOpen()">ו</button>
+  <button id="i"  onclick = "locationOpen()">ן</button>
+  <button id="o"  onclick = "locationOpen()">ם</button>
+  <button id="p"  onclick = "locationOpen()">פ</button>
+</div>
+<div>
+  <button id="a"  onclick = "locationOpen()">ש</button>
+  <button id="s" onclick = "locationOpen()">ד</button>
+  <button id="d"  onclick = "locationOpen()">ג</button>
+  <button id="f"  onclick = "locationOpen()">כ</button>
+  <button id="g"  onclick = "locationOpen()">ע</button>
+  <button id="h"  onclick = "locationOpen()">י</button>
+  <button id="j"  onclick = "locationOpen()">ח</button>
+  <button id="k"  onclick = "locationOpen()">ל</button>
+  <button id="l"  onclick = "locationOpen()">ך</button>
+  <button id="pp"  onclick = "locationOpen()">ף</button>
+  <!--    different ף-->
+</div>
+<div>
+  <button id="enter"   class="long">אשר</button>
+  <button id="z"  onclick = "locationOpen()">ז</button>
+  <button id="x"  onclick = "locationOpen()">ס</button>
+  <button id="c"  onclick = "locationOpen()">ב</button>
+  <button id="v"  onclick = "locationOpen()">ה</button>
+  <button id="b"  onclick = "locationOpen()">נ</button>
+  <button id="n"  onclick = "locationOpen()">מ</button>
+  <button id="m"  onclick = "locationOpen()">צ</button>
+  <button id="tt"  onclick = "locationOpen()">ת</button>
+  <!--    different ת-->
+  <button id="mm"  onclick = "locationOpen()">ץ</button>
+  <!--    different ץ-->
+  <button id="delete" class="long">מחק</button>
+</div>
+
+
+
+
+</body>
+</html>
